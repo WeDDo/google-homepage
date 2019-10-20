@@ -66,6 +66,12 @@ img{
     padding: 10px 10px;
     margin: 0 5px;
     border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+#search-form button:hover{
+    border: 1px solid #b8b8b8;
+    color: black;
 }
 
 #search-query:hover{
@@ -90,4 +96,8 @@ img{
     color: #666666;
     font-size: 13px;
     top: 15px;
+}
+
+#footer a:hover{
+    text-decoration: underline;
 }
