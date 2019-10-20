@@ -45,11 +45,32 @@ img{
 }
 
 #search-query{
-    width: 450px;
+    background: white;
+    width: 475px;
     margin: 25px auto;
     display: block;
     height: 40px;
     border: 1px solid #999999;
     border-radius: 25px;
+    font-size: 16px;
+    text-indent: 40px;
+}
+
+#search-form button{
+    background: #ebebeb;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    width: 125px;
+    padding: 10px 10px;
+    margin: 0 5px;
+    border: 1px solid transparent;
+}
+
+#search-query:hover{
+    -moz-box-shadow: inset inset 10px 10px rgb(236, 236, 236);
+    -webkit-box-shadow: inset inset 10px 10px rgb(236, 236, 236);
+    box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
 }
 
